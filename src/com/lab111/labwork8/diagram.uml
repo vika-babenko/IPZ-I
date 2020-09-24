@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="99.99999999999999" y="155.0">com.lab111.labwork8.MyCreator</node>
+    <node x="109.0" y="46.0">com.lab111.labwork8.WorkClass</node>
+    <node x="172.0" y="235.0">com.lab111.labwork8.FirstCreator</node>
+    <node x="0.0" y="80.0">com.lab111.labwork8.SecondIterator</node>
+    <node x="104.00000000000001" y="0.0">com.lab111.labwork8.MyIterator</node>
+    <node x="0.0" y="235.0">com.lab111.labwork8.SecondCreator</node>
+    <node x="180.0" y="80.0">com.lab111.labwork8.FirstIterator</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.lab111.labwork8.FirstCreator" target="com.lab111.labwork8.MyCreator">
+      <point x="0.0" y="-15.0" />
+      <point x="244.0" y="210.0" />
+      <point x="190.0" y="210.0" />
+      <point x="30.00000000000003" y="15.0" />
+    </edge>
+    <edge source="com.lab111.labwork8.SecondIterator" target="com.lab111.labwork8.MyIterator">
+      <point x="0.0" y="-15.0" />
+      <point x="80.0" y="55.0" />
+      <point x="136.0" y="55.0" />
+      <point x="-32.0" y="15.0" />
+    </edge>
+    <edge source="com.lab111.labwork8.SecondCreator" target="com.lab111.labwork8.MyCreator">
+      <point x="0.0" y="-15.0" />
+      <point x="76.0" y="210.0" />
+      <point x="130.0" y="210.0" />
+      <point x="-30.0" y="15.0" />
+    </edge>
+    <edge source="com.lab111.labwork8.FirstIterator" target="com.lab111.labwork8.MyIterator">
+      <point x="0.0" y="-15.0" />
+      <point x="256.0" y="55.0" />
+      <point x="200.0" y="55.0" />
+      <point x="31.99999999999997" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="505.5" y="214.0" />
+  <SelectedNodes>
+    <node>com.lab111.labwork8.WorkClass</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

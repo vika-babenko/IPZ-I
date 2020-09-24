@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="146.5" y="180.0">com.lab111.labwork7.WorkClass</node>
+    <node x="277.89973544973543" y="0.0">com.lab111.labwork7.UserSidePart</node>
+    <node x="24.483068783068774" y="0.0">com.lab111.labwork7.Command</node>
+    <node x="290.5" y="90.0">com.lab111.labwork7.GetAllOk</node>
+    <node x="10.5" y="87.0">com.lab111.labwork7.Database</node>
+    <node x="142.5" y="90.0">com.lab111.labwork7.GetRequest</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.lab111.labwork7.GetRequest" target="com.lab111.labwork7.Command">
+      <point x="-42.66666666666663" y="-15.0" />
+      <point x="163.83333333333337" y="60.0" />
+      <point x="97.28306878306876" y="60.0" />
+      <point x="20.799999999999983" y="15.0" />
+    </edge>
+    <edge source="com.lab111.labwork7.WorkClass" target="com.lab111.labwork7.Command">
+      <point x="-51.428571428571416" y="-15.0" />
+      <point x="155.0714285714286" y="160.0" />
+      <point x="0.0" y="160.0" />
+      <point x="0.0" y="60.0" />
+      <point x="34.88306878306878" y="60.0" />
+      <point x="-41.599999999999994" y="15.0" />
+    </edge>
+    <edge source="com.lab111.labwork7.GetRequest" target="com.lab111.labwork7.UserSidePart">
+      <point x="0.0" y="-15.0" />
+      <point x="206.5" y="60.0" />
+      <point x="289.89973544973543" y="60.0" />
+      <point x="-60.0" y="15.0" />
+    </edge>
+    <edge source="com.lab111.labwork7.Database" target="com.lab111.labwork7.Command">
+      <point x="-28.0" y="-15.0" />
+      <point x="38.5" y="70.0" />
+      <point x="55.68306878306876" y="70.0" />
+      <point x="-20.800000000000004" y="15.0" />
+    </edge>
+    <edge source="com.lab111.labwork7.GetAllOk" target="com.lab111.labwork7.UserSidePart">
+      <point x="0.0" y="-15.0" />
+      <point x="346.5" y="70.0" />
+      <point x="337.89973544973543" y="70.0" />
+      <point x="-12.0" y="15.0" />
+    </edge>
+    <edge source="com.lab111.labwork7.WorkClass" target="com.lab111.labwork7.Database">
+      <point x="-34.28571428571428" y="-15.0" />
+      <point x="172.21428571428572" y="150.0" />
+      <point x="38.5" y="150.0" />
+      <point x="-28.0" y="15.0" />
+    </edge>
+    <edge source="com.lab111.labwork7.GetAllOk" target="com.lab111.labwork7.Command">
+      <point x="-37.33333333333334" y="-15.0" />
+      <point x="309.16666666666663" y="50.0" />
+      <point x="118.08306878306875" y="50.0" />
+      <point x="41.59999999999998" y="15.0" />
+    </edge>
+    <edge source="com.lab111.labwork7.WorkClass" target="com.lab111.labwork7.GetAllOk">
+      <point x="17.14285714285714" y="-15.0" />
+      <point x="223.64285714285717" y="140.0" />
+      <point x="346.5" y="140.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.lab111.labwork7.WorkClass" target="com.lab111.labwork7.GetRequest">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.lab111.labwork7.WorkClass" target="com.lab111.labwork7.UserSidePart">
+      <point x="34.28571428571428" y="-15.0" />
+      <point x="240.78571428571428" y="150.0" />
+      <point x="413.0" y="150.0" />
+      <point x="413.0" y="60.0" />
+      <point x="385.89973544973543" y="60.0" />
+      <point x="36.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="245.5" y="88.0" />
+  <SelectedNodes>
+    <node>com.lab111.labwork7.Database</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

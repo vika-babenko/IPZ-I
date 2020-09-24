@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="165.0" y="230.0">com.lab111.labwork9.MyClient</node>
+    <node x="228.0" y="80.0">com.lab111.labwork9.Red50CircleBuilder</node>
+    <node x="0.0" y="155.0">com.lab111.labwork9.WorkingClass</node>
+    <node x="134.0" y="0.0">com.lab111.labwork9.ElementBuilder</node>
+    <node x="0.0" y="230.0">com.lab111.labwork9.MyElement</node>
+    <node x="0.0" y="80.0">com.lab111.labwork9.Green20SquareBuilder</node>
+    <node x="189.0" y="155.0">com.lab111.labwork9.ConfigFile</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.lab111.labwork9.Green20SquareBuilder" target="com.lab111.labwork9.ElementBuilder">
+      <point x="0.0" y="-15.0" />
+      <point x="104.0" y="55.0" />
+      <point x="174.0" y="55.0" />
+      <point x="-40.0" y="15.0" />
+    </edge>
+    <edge source="com.lab111.labwork9.Red50CircleBuilder" target="com.lab111.labwork9.ElementBuilder">
+      <point x="0.0" y="-15.0" />
+      <point x="324.0" y="55.0" />
+      <point x="254.0" y="55.0" />
+      <point x="39.99999999999997" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="273.5" y="98.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
